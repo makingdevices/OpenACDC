@@ -113,7 +113,7 @@ See the [open issues](https://github.com/makingdevices/OpenACDC/issues) for a fu
 
 State: Project <b>UNFINISHED</b> - 07/01/2023
 
-Priority: Low
+Priority: <b>Low</b>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
