@@ -1,0 +1,421 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 691411910003_691411910003
+#
+DEF 691411910003_691411910003 J 0 40 Y N 1 L N
+F0 "J" -196 -47 50 H V L BNN
+F1 "691411910003_691411910003" -195 -119 50 H V L BNN
+F2 "691411910003" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "THT" 0 0 50 H I L BNN "MOUNT"
+F5 "3" 0 0 50 H I L BNN "PINS"
+F6 "750V (AC)" 0 0 50 H I L BNN "WORKING-VOLTAGE-VDE"
+F7 "10A" 0 0 50 H I L BNN "IR-VDE"
+F8 "https://www.we-online.com/catalog/datasheet/691411910003.pdf" 0 0 50 H I L BNN "DATASHEET-URL"
+F9 "7.5mm" 0 0 50 H I L BNN "PITCH"
+F10 "300V (AC)" 0 0 50 H I L BNN "WORKING-VOLTAGE-UL"
+F11 "Horizontal" 0 0 50 H I L BNN "TYPE"
+F12 "691411910003" 0 0 50 H I L BNN "PART-NUMBER"
+F13 "10A" 0 0 50 H I L BNN "IR-UL"
+F14 "16 to 30 (AWG) 1.31 to 0.0509 (mm²)" 0 0 50 H I L BNN "WIRE"
+DRAW
+C -100 -50 18 0 0 10 N
+C 0 -50 18 0 0 10 N
+C 100 -50 18 0 0 10 N
+P 2 0 0 10 -150 -100 150 -100 N
+P 2 0 0 10 -150 0 -150 -100 N
+P 2 0 0 10 -100 -70 -100 -100 N
+P 2 0 0 10 0 -70 0 -100 N
+P 2 0 0 10 100 -70 100 -100 N
+P 2 0 0 10 150 -100 150 0 N
+P 2 0 0 10 150 0 -150 0 N
+X ~ 1 -100 -200 100 U 40 40 0 0 P
+X ~ 2 0 -200 100 U 40 40 0 0 P
+X ~ 3 100 -200 100 U 40 40 0 0 P
+X ~ A1 -100 -200 100 U 40 40 0 0 P
+X ~ A2 0 -200 100 U 40 40 0 0 P
+X ~ A3 100 -200 100 U 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 696105003002_696105003002
+#
+DEF 696105003002_696105003002 F 0 40 N N 1 L N
+F0 "F" -151 55 50 H V L BNN
+F1 "696105003002_696105003002" -151 -95 50 H V L BNN
+F2 "FUSE_696105003002" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "696105003002" 0 0 50 H I L BNN "MP"
+F5 "None" 0 0 50 H I L BNN "PRICE"
+F6 "Wurth Electronics" 0 0 50 H I L BNN "MF"
+F7 "None" 0 0 50 H I L BNN "PACKAGE"
+F8 "Fuse Holder, 250 V, 10 A, Cartridge Fuse Holder, Through Hole, 1" 0 0 50 H I L BNN "DESCRIPTION"
+F9 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+DRAW
+S -150 -30 150 30 0 0 10 f
+P 2 0 0 6 -100 0 100 0 N
+X ~ 1 -200 0 100 R 40 40 0 0 P
+X ~ 2 200 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Isolator_PC817
+#
+DEF Isolator_PC817 U 0 40 Y Y 1 F N
+F0 "U" -200 200 50 H V L CNN
+F1 "Isolator_PC817" 0 200 50 H V L CNN
+F2 "Package_DIP:DIP-4_W7.62mm" -200 -200 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS EL817
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -125 -25 -75 -25 N
+P 2 0 1 0 100 25 175 100 N
+P 2 0 1 0 175 -100 100 -25 F
+P 2 0 1 0 175 -100 200 -100 N
+P 2 0 1 0 175 100 200 100 N
+P 3 0 1 0 -200 100 -100 100 -100 -25 N
+P 3 0 1 0 -100 -25 -100 -100 -200 -100 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 10 -100 -25 -125 25 -75 25 -100 -25 N
+P 5 0 1 0 -20 -20 30 -20 15 -25 15 -15 30 -20 N
+P 5 0 1 0 -20 20 30 20 15 15 15 25 30 20 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 -100 100 L 50 50 1 1 P
+X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_282834-2
+#
+DEF Library_Loader_282834-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "Library_Loader_282834-2" 650 200 50 H V L CNN
+F2 "282834-2_1" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" 650 -100 50 H I L CNN "Description"
+F5 "571-282834-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "282834-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_400BXW100MEFR18X25
+#
+DEF Library_Loader_400BXW100MEFR18X25 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Library_Loader_400BXW100MEFR18X25" 350 150 50 H V L CNN
+F2 "CAPPRD750W80D1825H2700" 350 50 50 H I L CNN
+F3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_BXW.pdf" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - Radial Leaded LONG LIFE ELECTROLYTIC CAPACITORS" 350 -150 50 H I L CNN "Description"
+F5 "27" 350 -250 50 H I L CNN "Height"
+F6 "Rubycon" 350 -550 50 H I L CNN "Manufacturer_Name"
+F7 "400BXW100MEFR18X25" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_7491181012
+#
+DEF Library_Loader_7491181012 T 0 30 Y Y 1 F N
+F0 "T" 650 300 50 H V L CNN
+F1 "Library_Loader_7491181012" 650 200 50 H V L CNN
+F2 "WE_E13/7/4_THT_VERTIKAL_6PIN112" 650 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/7491181012.pdf" 650 0 50 H I L CNN
+F4 "Off-Line Transformer WE-Unit" 650 -100 50 H I L CNN "Description"
+F5 "710-7491181012" 650 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7491181012?qs=AXuZnX5ayYTJw0OnKZ%2FjIA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F8 "7491181012" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 3 1 0 0 200 R 50 50 0 0 P
+X 1 3 0 -100 200 R 50 50 0 0 P
+X 6 4 800 0 200 L 50 50 0 0 P
+X 4 6 800 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_A768KS477M1CLAE017
+#
+DEF Library_Loader_A768KS477M1CLAE017 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Library_Loader_A768KS477M1CLAE017" 350 150 50 H V L CNN
+F2 "CAPAE830X1250N" 350 50 50 H I L CNN
+F3 "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/A768KS477M1CLAE017" 350 -50 50 H I L CNN
+F4 "Aluminum Organic Polymer Capacitors 16V 470uF 20% ESR=17mOhms" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "80-A768KS477M1CLAE17" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/A768KS477M1CLAE017?qs=vmHwEFxEFR%2FUoDyivaa4ZQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "A768KS477M1CLAE017" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_AU1PJ-M3_84A
+#
+DEF Library_Loader_AU1PJ-M3_84A D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "Library_Loader_AU1PJ-M3_84A" 450 100 50 H V L CNN
+F2 "DO-220AA" 450 0 50 H I L CNN
+F3 "https://www.vishay.com/docs/89291/au1pm.pdf" 450 -100 50 H I L CNN
+F4 "Vishay AU1PJ-M3/84A Rectifier Diode, 1A 600V, 2-Pin DO-220AA" 450 -200 50 H I L CNN "Description"
+F5 "625-AU1PJ-M3/84A" 450 -400 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/AU1PJ-M3-84A?qs=z5NHsHGj0DFfyHKogfctvQ%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F7 "Vishay" 450 -600 50 H I L CNN "Manufacturer_Name"
+F8 "AU1PJ-M3/84A" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_AVE106M16B12T-F
+#
+DEF Library_Loader_AVE106M16B12T-F C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Library_Loader_AVE106M16B12T-F" 350 150 50 H V L CNN
+F2 "CAPAE430X610N" 350 50 50 H I L CNN
+F3 "https://www.mouser.fi/datasheet/2/88/AVE-4653.pdf" 350 -50 50 H I L CNN
+F4 "Cornell-Dubilier 10uF 16 V dc Aluminium Capacitor B, AVE Series 1000 (Shelf) h, 2000 h 4 x 5.3mm" 350 -150 50 H I L CNN "Description"
+F5 "6.1" 350 -250 50 H I L CNN "Height"
+F6 "598-AVE106M16B12T-F" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/AVE106M16B12T-F?qs=g35H13458KY63udaGL2EDw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Cornell Dubilier" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "AVE106M16B12T-F" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_B32620A6222K189
+#
+DEF Library_Loader_B32620A6222K189 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Library_Loader_B32620A6222K189" 350 150 50 H V L CNN
+F2 "B32620_(10_x_4)" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32620_621.pdf" 350 -50 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 0.0022uF, 630V DC, 4mm(W) x 8.5mm(H) x 10mm(L)" 350 -150 50 H I L CNN "Description"
+F5 "871-B32620A6222K189" 350 -350 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32620A6222K189?qs=tN54kAYP97KNRQglQqvaWw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F7 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F8 "B32620A6222K189" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_C0805C475M8RACTU
+#
+DEF Library_Loader_C0805C475M8RACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "Library_Loader_C0805C475M8RACTU" 350 150 50 H V L CNN
+F2 "CAPC2012X140N" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2444426.pdf" 350 -50 50 H I L CNN
+F4 "Cap Ceramic 4.7uF 10V X7R 20% Pad SMD 0805 125C T/R" 350 -150 50 H I L CNN "Description"
+F5 "1.4" 350 -250 50 H I L CNN "Height"
+F6 "Kemet" 350 -550 50 H I L CNN "Manufacturer_Name"
+F7 "C0805C475M8RACTU" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_ERJP6WF1303V
+#
+DEF Library_Loader_ERJP6WF1303V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "Library_Loader_ERJP6WF1303V" 550 150 50 H V L CNN
+F2 "RESC2012X75N" 550 50 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/7708607P" 550 -50 50 H I L CNN
+F4 "Panasonic ERJP6W Series Thick Film Surface Mount Fixed Resistor 0805 Case 130k +/-1% 0.5W +/-200ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.75" 550 -250 50 H I L CNN "Height"
+F6 "7708607P" 550 -350 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/7708607P" 550 -450 50 H I L CNN "RS Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJP6WF1303V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_MSS1048-223MLB
+#
+DEF Library_Loader_MSS1048-223MLB L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "Library_Loader_MSS1048-223MLB" 650 150 50 H V L CNN
+F2 "MSS1048223MLB" 650 50 50 H I L CNN
+F3 "" 650 -50 50 H I L CNN
+F4 "Fixed Inductors 22uH Shld 20% 3.58A 52.2mOhms" 650 -150 50 H I L CNN "Description"
+F5 "5.1" 650 -250 50 H I L CNN "Height"
+F6 "994-MSS1048-223MLB" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Coilcraft/MSS1048-223MLB?qs=VJjuEbE9QBORZeM29TUfsg%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "COILCRAFT" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MSS1048-223MLB" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_NCP1012ST130T3G
+#
+DEF Library_Loader_NCP1012ST130T3G IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "Library_Loader_NCP1012ST130T3G" 950 200 50 H V L CNN
+F2 "SOT230P700X175-4N" 950 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/NCP1010-D.PDF" 950 0 50 H I L CNN
+F4 "ON Semiconductor NCP1012ST130T3G, PWM Current Mode Controller, 550 mA, 143 kHz, -0.3  10 V, 3 + Tab-Pin SOT-223" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "863-NCP1012ST130T3G" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1012ST130T3G?qs=Gev%252BmEvV0iYqCAaO4DYRTA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ON Semiconductor" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NCP1012ST130T3G" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X VCC 1 0 0 200 R 50 50 0 0 P
+X FB 2 0 -100 200 R 50 50 0 0 P
+X DRAIN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_TC1108-3.3VDBTR
+#
+DEF Library_Loader_TC1108-3.3VDBTR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "Library_Loader_TC1108-3.3VDBTR" 1050 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1050 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/8234309P" 1050 0 50 H I L CNN
+F4 "Microchip TC1108-3.3VDBTR, LDO Voltage Regulator, 300mA, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223" 1050 -100 50 H I L CNN "Description"
+F5 "1.8" 1050 -200 50 H I L CNN "Height"
+F6 "8234309P" 1050 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/8234309P" 1050 -400 50 H I L CNN "RS Price/Stock"
+F8 "Microchip" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TC1108-3.3VDBTR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70451504" 1050 -700 50 H I L CNN "Allied_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 0 -100 200 R 50 50 0 0 P
+X VOUT 3 0 -200 200 R 50 50 0 0 P
+X GND_2 4 1200 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_VS-MBRS360-M3_9AT
+#
+DEF Library_Loader_VS-MBRS360-M3_9AT D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "Library_Loader_VS-MBRS360-M3_9AT" 450 100 50 H V L CNN
+F2 "DIOM7959X262N" 450 0 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-23/459231.pdf" 450 -100 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 3A 60V Single Die Schottky Rectifier" 450 -200 50 H I L CNN "Description"
+F5 "2.62" 450 -300 50 H I L CNN "Height"
+F6 "78-VS-MBRS360-M39AT" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-MBRS360-M3-9AT?qs=nc3S1USEIbvRKNPK58xwrQ%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "VS-MBRS360-M3/9AT" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Library_Loader_W10G-E4_51
+#
+DEF Library_Loader_W10G-E4_51 BR 0 30 Y Y 1 F N
+F0 "BR" 850 300 50 H V L CNN
+F1 "Library_Loader_W10G-E4_51" 850 200 50 H V L CNN
+F2 "WOG(8.84X5.6)_1" 850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/326054.pdf" 850 0 50 H I L CNN
+F4 "VISHAY - W10G-E4/51 - BRIDGE RECTIFIER, 1.5A, 1000V" 850 -100 50 H I L CNN "Description"
+F5 "625-W10G-E4" 850 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/W10G-E4-51?qs=D6r9GjgEnNMZn%2FTpjmZOHQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "Vishay" 850 -500 50 H I L CNN "Manufacturer_Name"
+F8 "W10G-E4/51" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+X + 1 0 0 200 R 50 50 0 0 P
+X ~_1 2 1000 0 200 L 50 50 0 0 P
+X - 3 1000 -100 200 L 50 50 0 0 P
+X ~_2 4 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Reference_Voltage_TL431DBZ
+#
+DEF Reference_Voltage_TL431DBZ U 0 20 N N 1 F N
+F0 "U" -100 100 50 H V C CNN
+F1 "Reference_Voltage_TL431DBZ" 0 -100 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 0 -150 50 H I C CIN
+F3 "" 0 0 50 H I C CIN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -50 0 0 0 50 0 N
+P 3 0 1 0 -30 30 30 0 -30 -30 F
+P 4 0 1 10 20 -40 30 -30 30 30 30 30 N
+X K 1 100 0 100 L 50 50 1 1 P
+X REF 2 0 100 100 D 50 50 1 1 P
+X A 3 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
